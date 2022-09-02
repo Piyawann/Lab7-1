@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <meta charset="utf‐8">
+    <script>
+        function calculate() {
+            var num1 = parseInt(document.form1.FirstNum.value);
+            var num2 = parseInt(document.form1.SecondNum.value);
+            var sum;
+            sum = num1 + num2;
+            document.form1.result.value = sum;
+        }
+    </script>
+</head>
+
+<body>
+    <form name="form1">
+        <input type="text" id="FirstNum"> +
+        <input type="text" id="SecondNum"> =
+        <input type="text" id="result">
+        <input type="button" value="GoGo" onclick="calculate( );">
+    </form>
+</body>
+
+</html>
